@@ -27,7 +27,7 @@
 - MariaDB
 - PHP and MYPHPAdmin
 
-I have followed a tutorial from Docker for local web development introduction why should you care ######1 for the LEMP setup a key note on which I did not undersatnd when I did the index.php file is to have $connection = new PDO('[DBMS]:host=[HOST];dbname=demo;charset=utf8', 'root', 'root'); - this is from great help from osteel the writer of the blog.
+I have followed a tutorial from Docker for local web development introduction why should you care <a name="1">1</a> for the LEMP setup a key note on which I did not undersatnd when I did the index.php file is to have $connection = new PDO('[DBMS]:host=[HOST];dbname=demo;charset=utf8', 'root', 'root'); - this is from great help from osteel the writer of the blog.
 
 docker install on Debian ######2 and Install docker compose - <sup>3</sup> for the docker and docker compose install
 
@@ -50,8 +50,8 @@ USERDIR={location to presistate date} # for me this is one the shares on open me
 # this will be the location of the persistent data for all services running on the server - presistant data is the data 
 # that will be saved for configuration files and services
 ```
-<sup>1</sup> https://tech.osteel.me/posts/docker-for-local-web-development-introduction-why-should-you-care
-<sup>2</sup> https://docs.docker.com/engine/install/debian/
-<sup>3</sup> https://docs.docker.com/compose/install/
-<sup>4</sup> https://www.youtube.com/watch?v=A5ckT7pxrNY
-<sup>5</sup> https://www.smarthomebeginner.com/docker-home-media-server-2018-basic/
+<a name="1">1</a> https://tech.osteel.me/posts/docker-for-local-web-development-introduction-why-should-you-care<br />
+<sup>2</sup> https://docs.docker.com/engine/install/debian/<br />
+<sup>3</sup> https://docs.docker.com/compose/install/<br />
+<sup>4</sup> https://www.youtube.com/watch?v=A5ckT7pxrNY<br />
+<sup>5</sup> https://www.smarthomebeginner.com/docker-home-media-server-2018-basic/<br />

@@ -20,10 +20,13 @@ For each .env file you will edit the file for each stack you create for organiza
 COMPOSE_PROJECT_NAME={LEMP|OTHER|services} # this is to group the different area under each stack
 
 PUID=1000 # id command will show you this # for current user example uid=1000(user)
-* Main linux user id that will be running server
+\# Main linux user id that will be running server
+
 PGID=994 # id command will show you this # for current user example 994(docker)
-* docker group id
+\# docker group id
+
 TZ=America/Winnipeg # the time zone for your area
+
 USERDIR={location to presistate date} # for me this is one the shares on open media vault
-* this will be the location of the persistent data for all services running on the server - presistant data is the data that will be saved for configuration files
-* and services
+\# this will be the location of the persistent data for all services running on the server - presistant data is the data that will be saved for configuration files
+\# and services

@@ -46,6 +46,6 @@ PGID=994 # id command will show you this # for current user example 994(docker)
 # docker group id<br />
 TZ={timezone} # the time zone for your area<br />
 USERDIR={location to presistate date} # for me this is one the shares on open media vault
-# this will be the location of the persistent data for all services running on the server - presistant data is the data that will be saved for configuration files
-# and services
+# this will be the location of the persistent data for all services running on the server - presistant data is the data 
+# that will be saved for configuration files and services
 ```

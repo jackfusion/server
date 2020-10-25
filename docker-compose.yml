@@ -1,0 +1,27 @@
+#portainer
+  portainer:
+    image: portainer/portainer-ce
+    container_name: portainer
+    restart: always
+    command: -H unix:///var/run/docker.sock
+    ports:
+      - 9003:9000
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ${USERDIR}/config/portainer/data:/data
+      - ${USERDIR}/config/shared:/shared
+    environment:
+      - TZ=${TZ}
+    # https://hub.docker.com/r/portainer/portainer-ce
+    # https://github.com/portainer/portainer/
+
+#watchtower
+  watchtower:
+    image: v2tec/watchtower
+    container_name: watchtower
+    restart: always
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: --schedule "0 0 4 * * *" --cleanup
+    # https://hub.docker.com/r/v2tec/watchtower
+    # https://github.com/containrrr/watchtower

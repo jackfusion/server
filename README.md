@@ -27,7 +27,7 @@
 - MariaDB
 - PHP and MYPHPAdmin
 
-I have followed a tutorial from Docker for local web development introduction why should you care <em id="1">1</em> for the LEMP setup a key note on which I did not undersatnd when I did the index.php file is to have $connection = new PDO('[DBMS]:host=[HOST];dbname=demo;charset=utf8', 'root', 'root'); - this is from great help from osteel the writer of the blog.
+I have followed a tutorial from Docker for local web development introduction why should you care a href="https://github.com/jackfusion/server/blob/master/README.md#1-httpstechosteelmepostsdocker-for-local-web-development-introduction-why-should-you-care">1</a> for the LEMP setup a key note on which I did not undersatnd when I did the index.php file is to have $connection = new PDO('[DBMS]:host=[HOST];dbname=demo;charset=utf8', 'root', 'root'); - this is from great help from osteel the writer of the blog.
 
 docker install on Debian ######2 and Install docker compose - <sup>3</sup> for the docker and docker compose install
 

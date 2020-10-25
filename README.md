@@ -37,14 +37,15 @@ Openmediavault 5 (OMV5) Complete Install and Setup including Portainer on PC - h
 
 I have been using https://www.smarthomebeginner.com/docker-home-media-server-2018-basic/ to help with cleaning up my code and expanding on my containers for development.
 
-For each .env file you will edit the file for each stack you create for organization of the conatiners
-
-COMPOSE_PROJECT_NAME=**{LEMP|OTHER|services}** # this is to group the different area under each stack<br />
-PUID=**1000** # id command will show you this # for current user example uid=1000(user)
+For each .env file you will edit the file for each stack you create for organization of the conatiners<br />
+```
+COMPOSE_PROJECT_NAME={LEMP|OTHER|services} # this is to group the different area under each stack<br />
+PUID=1000 # id command will show you this # for current user example uid=1000(user)
 \# Main linux user id that will be running server<br />
-PGID=**994** # id command will show you this # for current user example 994(docker)
+PGID=994 # id command will show you this # for current user example 994(docker)
 \# docker group id<br />
-TZ=**{timezone}** # the time zone for your area<br />
-USERDIR=**{location to presistate date}** # for me this is one the shares on open media vault
+TZ={timezone} # the time zone for your area<br />
+USERDIR={location to presistate date} # for me this is one the shares on open media vault
 \# this will be the location of the persistent data for all services running on the server - presistant data is the data that will be saved for configuration files
 \# and services
+```

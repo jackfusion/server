@@ -1,9 +1,31 @@
-LEMP Install through Docker I am setting up a LEMP install the way I would like it with
+├── LEMP <br />
+│   ├── config <br />
+│   │   ├── db <br />
+│   │   │   └── my.cnf <br />
+│   │   ├── nginx <br />
+│   │   │   ├── conf.d <br />
+│   │   │   │   ├── php.conf <br />
+│   │   │   │   └── phpmyadmin.conf <br />
+│   │   │   └── www <br />
+│   │   │       └── index.php <br />
+│   │   └── php <br />
+│   │       └── Dockerfile <br />
+│   ├── docker-compose.yml <br />
+|   └── .env <br />
+├── Other <br />
+│   ├── docker-compose.yml <br />
+|   └── .env <br />
+└── services <br />
+    ├── docker-compose.yml <br />
+    └── .env <br />
 
-L - Open Media Vault - Linux
-E - Nginx
-M - MariaDB
-P - PHP and MYPHPAdmin
+# Serivces
+- Portainer ce
+- Watchtower
+- nbr23/youtube-dl-server
+- Nginx
+- MariaDB
+- PHP and MYPHPAdmin
 
 I have followed a tutorial from Docker for local web development introduction why should you care - https://tech.osteel.me/posts/docker-for-local-web-development-introduction-why-should-you-care for the LEMP setup a key note on which I did not undersatnd when I did the index.php file is to have $connection = new PDO('[DBMS]:host=[HOST];dbname=demo;charset=utf8', 'root', 'root'); - this is from great help from osteel the writer of the blog.
 

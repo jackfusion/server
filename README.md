@@ -18,6 +18,7 @@ I have been using https://www.smarthomebeginner.com/docker-home-media-server-201
 For each .env file you will edit the file for each stack you create for organization of the conatiners
 
 COMPOSE_PROJECT_NAME={LEMP|OTHER|services} # this is to group the different area under each stack
+
 PUID=1000 # id command will show you this # for current user example uid=1000(user)
 - Main linux user id that will be running server
 PGID=994 # id command will show you this # for current user example 994(docker)

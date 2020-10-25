@@ -16,8 +16,8 @@
 │   ├── docker-compose.yml <br />
 |    └── .env <br />
 └── services <br />
-    ├── docker-compose.yml <br />
-    └── .env <br />
+     ├── docker-compose.yml <br />
+     └── .env <br />
 
 # Serivces
 - Portainer ce

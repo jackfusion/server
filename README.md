@@ -11,13 +11,13 @@
 │   │   └── php <br />
 │   │       └── Dockerfile <br />
 │   ├── docker-compose.yml <br />
-|   └── .env <br />
+|   └── .env <br />
 ├── Other <br />
 │   ├── docker-compose.yml <br />
-|   └── .env <br />
+|   └── .env <br />
 └── services <br />
     ├── docker-compose.yml <br />
-    └── .env <br />
+    └── .env <br />
 
 # Serivces
 - Portainer ce

@@ -14,10 +14,10 @@
 |    └── .env <br />
 ├── Other <br />
 │   ├── docker-compose.yml <br />
-|   └── .env <br />
+|    └── .env <br />
 └── services <br />
-    ├── docker-compose.yml <br />
-    └── .env <br />
+    ├── docker-compose.yml <br />
+ └── .env <br />
 
 # Serivces
 - Portainer ce

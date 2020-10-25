@@ -29,14 +29,14 @@
 
 I have followed a tutorial from Docker for local web development introduction why should you care <a href="https://github.com/jackfusion/server/blob/master/README.md#1-httpstechosteelmepostsdocker-for-local-web-development-introduction-why-should-you-care">1</a> for the LEMP setup a key note on which I did not undersatnd when I did the index.php file is to have $connection = new PDO('[DBMS]:host=[HOST];dbname=demo;charset=utf8', 'root', 'root'); - this is from great help from osteel the writer of the blog.
 
-docker install on Debian ######2 and Install docker compose - <sup>3</sup> for the docker and docker compose install
+docker install on Debian <a href="https://github.com/jackfusion/server/blob/master/README.md#5-httpswwwsmarthomebeginnercomdocker-home-media-server-2018-basic">2</a> and Install docker compose - <a href="https://github.com/jackfusion/server/blob/master/README.md#3-httpsdocsdockercomcomposeinstall">3</a> for the docker and docker compose install
 
 sudo apt install -y libssl-dev python-dev libffi-dev libc6-dev gcc make python3-pip gnupg2 net-tools apt-transport-https ca-certificates curl gnupg-agent software-properties-common - these are what is recommended by Docker for alpine and install docker engine
 
-Openmediavault 5 (OMV5) Complete Install and Setup including Portainer on PC ######4 for install and setup of Open Media vault not including the OMV extras because they do not include up to date docker install the one for the docker docs dose.
+Openmediavault 5 (OMV5) Complete Install and Setup including Portainer on PC <a href="https://github.com/jackfusion/server/blob/master/README.md#4-httpswwwyoutubecomwatchva5ckt7pxrny">4</a> for install and setup of Open Media vault not including the OMV extras because they do not include up to date docker install the one for the docker docs dose.
 
 
-I have been using ######5 smart home beginners wesite to help with cleaning up my code and expanding on my containers for development.
+I have been using <a href="https://github.com/jackfusion/server/blob/master/README.md#5-httpswwwsmarthomebeginnercomdocker-home-media-server-2018-basic">5</a> smart home beginners wesite to help with cleaning up my code and expanding on my containers for development.
 
 For each .env file you will edit the file for each stack you create for organization of the conatiners<br />
 ```

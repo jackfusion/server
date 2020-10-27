@@ -7,9 +7,9 @@
 │   │   │   │   ├── php.conf <br />
 │   │   │   │   └── phpmyadmin.conf <br />
 │   │   │   └── www <br />
-│   │   │         └── index.php <br />
+│   │   │        └── index.php <br />
 │   │   └── php <br />
-│   │         └── Dockerfile <br />
+│   │        └── Dockerfile <br />
 │   ├── docker-compose.yml <br />
 │   └── .env <br />
 ├── Other <br />

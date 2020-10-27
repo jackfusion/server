@@ -29,7 +29,7 @@
 
 I have followed a tutorial from Docker for local web development introduction why should you care <a href="https://github.com/jackfusion/server/blob/master/README.md#01-httpstechosteelmepostsdocker-for-local-web-development-introduction-why-should-you-care">1</a> for the LEMP setup a key note on which I did not undersatnd when I did the index.php file is to have $connection = new PDO('[DBMS]:host=[HOST];dbname=demo;charset=utf8', 'root', 'root'); - this is from great help from osteel the writer of the blog.
 
-docker install on Debian <a href="https://github.com/jackfusion/server/blob/master/README.md#05-httpswwwsmarthomebeginnercomdocker-home-media-server-2018-basic">2</a> and Install docker compose - <a href="https://github.com/jackfusion/server/blob/master/README.md#03-httpsdocsdockercomcomposeinstall">3</a> for the docker and docker compose install
+docker install on Debian <a href="https://github.com/jackfusion/server/blob/master/README.md#02-httpsdocsdockercomengineinstalldebian">2</a> and Install docker compose - <a href="https://github.com/jackfusion/server/blob/master/README.md#03-httpsdocsdockercomcomposeinstall">3</a> for the docker and docker compose install
 
 sudo apt install -y libssl-dev python-dev libffi-dev libc6-dev gcc make python3-pip gnupg2 net-tools apt-transport-https ca-certificates curl gnupg-agent software-properties-common - these are what is recommended by Docker for alpine and install docker engine
 

@@ -50,7 +50,7 @@ USERDIR={location to presistate date} # for me this is one the shares on open me
 # this will be the location of the persistent data for all services running on the server - presistant data is the data 
 # that will be saved for configuration files and services
 ```
-###### 01 https://tech.osteel.me/posts/docker-for-local-web-development-introduction-why-should-you-care
+###### 01 ###### https://tech.osteel.me/posts/docker-for-local-web-development-introduction-why-should-you-care
 ###### 02 https://docs.docker.com/engine/install/debian/
 ###### 03 https://docs.docker.com/compose/install/
 ###### 04 https://www.youtube.com/watch?v=A5ckT7pxrNY

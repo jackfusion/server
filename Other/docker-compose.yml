@@ -1,11 +1,11 @@
-version: "3.6"
+version: "3.7"
 services:
   youtube-dl:
     image: "nbr23/youtube-dl-server"
     ports: 
       - 9004:8080
     volumes:
-      - /srv/dev-disk-by-label-media/vidoes:/youtube-dl
+      - ${USERDIR}/vidoes:/youtube-dl
     restart: always
     # https://github.com/nbr23/youtube-dl-server
     # https://hub.docker.com/r/nbr23/youtube-dl-server

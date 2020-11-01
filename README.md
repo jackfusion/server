@@ -83,3 +83,9 @@ USERDIR={location to presistate date} # for me this is one the shares on open me
 ###### 11 https://github.com/docker-library/php
 ###### 12 https://hub.docker.com/_/nginx
 ###### 13 https://github.com/nginxinc/docker-nginx/
+###### 14 https://hub.docker.com/r/portainer/portainer-ce
+###### 15 https://github.com/portainer/portainer
+###### 16 https://hub.docker.com/r/v2tec/watchtower
+###### 17 https://github.com/containrrr/watchtower
+###### 18 https://hub.docker.com/r/nbr23/youtube-dl-server
+###### 19 https://github.com/manbearwiz/youtube-dl-server

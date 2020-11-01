@@ -1,3 +1,7 @@
+#Current Server Setup
+
+##Directoy layout
+
 ├── config<br />
 │   ├── LEMP<br />
 │   │   ├── db<br />
@@ -38,6 +42,8 @@ I have split things up into 3 catagories currently.
 <b>Development</b> - This will be for any service that I will need for development meaning servers. Examples Nginx, PHP, MariaDB, PHPMyAdmin, Python, MEAN, NodeJS, Etc.<br />
 <b>Services</b> - This will be this that are specific to Docker and the server for making it run or for backup services. Examples Portainter, Watchtower, Etc.<br />
 <b>Other</b> - is for Other services that do not fall under the current list of services. Example Youtube-dl, etc.<br />
+
+The directory layout is for each service and the persistent data directory.
 
 I will be keeping a runing list of links to the github repos, dockhubs, other sites and videos I use to setup my server for reference perposes so you can reference to them or if you would like more background on the service running here.
 

@@ -28,12 +28,12 @@
     └── .env<br />
 
 # Serivces
-- Portainer ce
-- Watchtower
-- nbr23/youtube-dl-server
-- Nginx
-- MariaDB
-- PHP and MYPHPAdmin
+- <a href="https://github.com/jackfusion/server/blob/master/README.md#15-httpsgithubcomportainerportainer">Portainer ce</a>
+- <a href="https://github.com/jackfusion/server/blob/master/README.md#17-httpsgithubcomcontainrrrwatchtower">Watchtower</a>
+- <a href="https://github.com/jackfusion/server/blob/master/README.md#13-httpsgithubcomnginxincdocker-nginx">Nginx</a>
+- <a href="https://github.com/jackfusion/server/blob/master/README.md#09-httpsgithubcomdocker-librarymariadb">MariaDB</a>
+- <a href="https://github.com/jackfusion/server/blob/master/README.md#11-httpsgithubcomdocker-libraryphp">PHP</a> and <a href="https://github.com/jackfusion/server/blob/master/README.md#07-httpsgithubcomphpmyadmindocker">MYPHPAdmin</a>
+- <a href="https://github.com/jackfusion/server/blob/master/README.md#19-httpsgithubcommanbearwizyoutube-dl-server">nbr23/youtube-dl-server</a>
 
 This will be a current running setup of my server that will change as I develop things and add to the server.  Which means this repo will never be complete and will have only working setup for you to copy.  Meaning I will be constantly updating it when I add services.  
 
@@ -47,16 +47,16 @@ The directory layout is for each service and the persistent data directory.
 
 I will be keeping a runing list of links to the github repos, dockhubs, other sites and videos I use to setup my server for reference perposes so you can reference to them or if you would like more background on the service running here.
 
-I have followed a tutorial from Docker for local web development introduction why should you care <a href="https://github.com/jackfusion/server/blob/master/README.md#01-httpstechosteelmepostsdocker-for-local-web-development-introduction-why-should-you-care">1</a> for the LEMP setup a key note on which I did not undersatnd when I did the index.php file is to have $connection = new PDO('[DBMS]:host=[HOST];dbname=demo;charset=utf8', 'root', 'root'); - this is from great help from osteel the writer of the blog.
+I have followed a tutorial from <a href="https://github.com/jackfusion/server/blob/master/README.md#15-httpstechosteelmepostsdocker-for-local-web-development-introduction-why-should-you-care">Docker for local web development introduction why should you care</a> for the LEMP setup a key note on which I did not undersatnd when I did the index.php file is to have $connection = new PDO('[DBMS]:host=[HOST];dbname=demo;charset=utf8', 'root', 'root'); - this is from great help from osteel the writer of the blog.
 
-docker install on Debian <a href="https://github.com/jackfusion/server/blob/master/README.md#02-httpsdocsdockercomengineinstalldebian">2</a> and Install docker compose - <a href="https://github.com/jackfusion/server/blob/master/README.md#03-httpsdocsdockercomcomposeinstall">3</a> for the docker and docker compose install
+<a href="https://github.com/jackfusion/server/blob/master/README.md#16-httpsdocsdockercomengineinstalldebian">docker install on Debian</a> and <a href="https://github.com/jackfusion/server/blob/master/README.md#17-httpsdocsdockercomcomposeinstall">Install docker compose</a> for the docker and docker compose install
 
 sudo apt install -y libssl-dev python-dev libffi-dev libc6-dev gcc make python3-pip gnupg2 net-tools apt-transport-https ca-certificates curl gnupg-agent software-properties-common - these are what is recommended by Docker for alpine and install docker engine
+<a href="https://github.com/jackfusion/server/blob/master/README.md#18-httpswwwyoutubecomwatchva5ckt7pxrny8">
+Openmediavault 5 (OMV5) Complete Install and Setup including Portainer on PC</a> for install and setup of Open Media vault not including the OMV extras because they do not include up to date docker install the one for the docker docs dose.
 
-Openmediavault 5 (OMV5) Complete Install and Setup including Portainer on PC <a href="https://github.com/jackfusion/server/blob/master/README.md#04-httpswwwyoutubecomwatchva5ckt7pxrny">4</a> for install and setup of Open Media vault not including the OMV extras because they do not include up to date docker install the one for the docker docs dose.
 
-
-I have been using <a href="https://github.com/jackfusion/server/blob/master/README.md#05-httpswwwsmarthomebeginnercomdocker-home-media-server-2018-basic">5</a> smart home beginners wesite to help with cleaning up my code and expanding on my containers for development.
+I have been using <a href="https://github.com/jackfusion/server/blob/master/README.md#19-httpswwwsmarthomebeginnercomdocker-home-media-server-2018-basic">5</a> smart home beginners wesite to help with cleaning up my code and expanding on my containers for development.
 
 For each .env file you will edit the file for each stack you create for organization of the conatiners<br />
 ```
@@ -70,22 +70,22 @@ USERDIR={location to presistate date} # for me this is one the shares on open me
 # this will be the location of the persistent data for all services running on the server - presistant data is the data 
 # that will be saved for configuration files and services
 ```
-###### 01 https://tech.osteel.me/posts/docker-for-local-web-development-introduction-why-should-you-care
-###### 02 https://docs.docker.com/engine/install/debian/
-###### 03 https://docs.docker.com/compose/install/
-###### 04 https://www.youtube.com/watch?v=A5ckT7pxrNY
-###### 05 https://www.smarthomebeginner.com/docker-home-media-server-2018-basic/
-###### 06 https://hub.docker.com/_/phpmyadmin
-###### 07 https://github.com/phpmyadmin/docker
-###### 08 https://hub.docker.com/_/mariadb
-###### 09 https://github.com/docker-library/mariadb
-###### 10 https://hub.docker.com/_/php
-###### 11 https://github.com/docker-library/php
-###### 12 https://hub.docker.com/_/nginx
-###### 13 https://github.com/nginxinc/docker-nginx/
-###### 14 https://hub.docker.com/r/portainer/portainer-ce
-###### 15 https://github.com/portainer/portainer
-###### 16 https://hub.docker.com/r/v2tec/watchtower
-###### 17 https://github.com/containrrr/watchtower
-###### 18 https://hub.docker.com/r/nbr23/youtube-dl-server
-###### 19 https://github.com/manbearwiz/youtube-dl-server
+###### 01 https://hub.docker.com/r/portainer/portainer-ce
+###### 02 https://github.com/portainer/portainer
+###### 03 https://hub.docker.com/r/v2tec/watchtower
+###### 04 https://github.com/containrrr/watchtower
+###### 05 https://hub.docker.com/_/nginx
+###### 06 https://github.com/nginxinc/docker-nginx/
+###### 07 https://hub.docker.com/_/mariadb
+###### 08 https://github.com/docker-library/mariadb
+###### 09 https://hub.docker.com/_/php
+###### 10 https://github.com/docker-library/php
+###### 11 https://hub.docker.com/_/phpmyadmin
+###### 12 https://github.com/phpmyadmin/docker
+###### 13 https://hub.docker.com/r/nbr23/youtube-dl-server
+###### 14 https://github.com/manbearwiz/youtube-dl-server
+###### 15 https://tech.osteel.me/posts/docker-for-local-web-development-introduction-why-should-you-care
+###### 16 https://docs.docker.com/engine/install/debian/
+###### 17 https://docs.docker.com/compose/install/
+###### 18 https://www.youtube.com/watch?v=A5ckT7pxrNY
+###### 19 https://www.smarthomebeginner.com/docker-home-media-server-2018-basic/

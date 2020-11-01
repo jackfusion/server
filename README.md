@@ -31,6 +31,16 @@
 - MariaDB
 - PHP and MYPHPAdmin
 
+This will be a current running setup of my server that will change as I develop things and add to the server.  Which means this repo will never be complete and will have only working setup for you to copy.  Meaning I will be constantly updating it when I add services.  
+
+I have split things up into 3 catagories currently.
+
+<b>Development</b> - This will be for any service that I will need for development meaning servers. Examples Nginx, PHP, MariaDB, PHPMyAdmin, Python, MEAN, NodeJS, Etc.
+<b>Services</b> - This will be this that are specific to Docker and the server for making it run or for backup services. Examples Portainter, Watchtower, Etc.
+<b>Other</b> - is for Other services that do not fall under the current list of services. Example Youtube-dl, etc.
+
+I will be keeping a runing list of links to the github repos, dockhubs, other sites and videos I use to setup my server for reference perposes so you can reference to them or if you would like more background on the service running here.
+
 I have followed a tutorial from Docker for local web development introduction why should you care <a href="https://github.com/jackfusion/server/blob/master/README.md#01-httpstechosteelmepostsdocker-for-local-web-development-introduction-why-should-you-care">1</a> for the LEMP setup a key note on which I did not undersatnd when I did the index.php file is to have $connection = new PDO('[DBMS]:host=[HOST];dbname=demo;charset=utf8', 'root', 'root'); - this is from great help from osteel the writer of the blog.
 
 docker install on Debian <a href="https://github.com/jackfusion/server/blob/master/README.md#02-httpsdocsdockercomengineinstalldebian">2</a> and Install docker compose - <a href="https://github.com/jackfusion/server/blob/master/README.md#03-httpsdocsdockercomcomposeinstall">3</a> for the docker and docker compose install
@@ -45,9 +55,9 @@ I have been using <a href="https://github.com/jackfusion/server/blob/master/READ
 For each .env file you will edit the file for each stack you create for organization of the conatiners<br />
 ```
 COMPOSE_PROJECT_NAME={LEMP|OTHER|services} # this is to group the different area under each stack<br />
-PUID=1000 # id command will show you this # for current user example uid=1000(user)
+PUID={id} # id command will show you this # for current user example uid=1000(user)
 # Main linux user id that will be running server<br />
-PGID=994 # id command will show you this # for current user example 994(docker)
+PGID={id} # id command will show you this # for current user example 994(docker)
 # docker group id<br />
 TZ={timezone} # the time zone for your area<br />
 USERDIR={location to presistate date} # for me this is one the shares on open media vault

@@ -19,7 +19,7 @@ services:
     hostname: php
     container_name: php
     restart: always
-    working_dir: /var/www/php
+    working_dir: /var/www/html
     volumes:
       - ${USERDIR}/nginx/www:/var/www/html
     depends_on:

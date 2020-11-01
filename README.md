@@ -1,23 +1,27 @@
-├── LEMP <br />
-│   ├── config <br />
-│   │   ├── db <br />
-│   │   │   └── my.cnf <br />
-│   │   ├── nginx <br />
-│   │   │   ├── conf.d <br />
-│   │   │   │   ├── php.conf <br />
-│   │   │   │   └── phpmyadmin.conf <br />
-│   │   │   └── www <br />
-│   │   │        └── index.php <br />
-│   │   └── php <br />
-│   │        └── Dockerfile <br />
-│   ├── docker-compose.yml <br />
-│   └── .env <br />
-├── Other <br />
-│   ├── docker-compose.yml <br />
-│   └── .env <br />
-└── services <br />
-     ├── docker-compose.yml <br />
-     └── .env <br />
+├── config<br />
+│   ├── LEMP<br />
+│   │   ├── db<br />
+│   │   │   └── my.cnf<br />
+│   │   ├── nginx<br />
+│   │   │   ├── conf.d<br />
+│   │   │   │   ├── php.conf<br />
+│   │   │   │   └── phpmyadmin.conf<br />
+│   │   │   └── www<br />
+│   │   │       └── index.php<br />
+│   │   └── php<br />
+│   │       └── Dockerfile<br />
+│   └── Other<br />
+│       └── vidoes<br />
+├── LEMP<br />
+│   ├── docker-compose.yml<br />
+│   └── .env<br />
+├── Other<br />
+│   ├── docker-compose.yml<br />
+│   └── .env<br />
+├── README.md<br />
+└── services<br />
+    ├── docker-compose.yml<br />
+    └── .env<br />
 
 # Serivces
 - Portainer ce

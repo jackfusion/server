@@ -1,6 +1,6 @@
-#Current Server Setup
+# Current Server Setup
 
-##Directoy layout
+## Directoy layout
 
 ├── config<br />
 │   ├── LEMP<br />

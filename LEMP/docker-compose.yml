@@ -34,7 +34,7 @@ services:
       - ${USERDIR}/db/config:/var/lib/mysql
     environment:
       - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
-      - MYSQL_DATABASE="demo"
+      - MYSQL_DATABASE=demo
       - PUID=${PUID}
       - PGID=${PGID}
       - TZ=${TZ}

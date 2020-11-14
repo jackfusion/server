@@ -40,6 +40,8 @@
 #frameworks and extensions
 - <a href="https://github.com/jackfusion/server#sass">SASS</a>
 
+For docker run command to converted to docker-compose file I used https://www.composerize.com/
+
 This will be a current running setup of my server that will change as I develop things and add to the server.  Which means this repo will never be complete and will have only working setup for you to copy.  Meaning I will be constantly updating it when I add services.  
 
 I have split things up into 3 catagories currently.

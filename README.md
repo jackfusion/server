@@ -37,6 +37,9 @@
 - <a href="https://github.com/jackfusion/server/blob/master/README.md#10-httpsgithubcomdocker-libraryphp">PHP</a> and <a href="https://github.com/jackfusion/server/blob/master/README.md#12-httpsgithubcomphpmyadmindocker">MYPHPAdmin</a>
 - <a href="https://github.com/jackfusion/server/blob/master/README.md#14-httpsgithubcommanbearwizyoutube-dl-server">nbr23/youtube-dl-server</a>
 
+#frameworks and extensions
+- SASS
+
 This will be a current running setup of my server that will change as I develop things and add to the server.  Which means this repo will never be complete and will have only working setup for you to copy.  Meaning I will be constantly updating it when I add services.  
 
 I have split things up into 3 catagories currently.
@@ -72,6 +75,42 @@ USERDIR={location to presistate date} # for me this is one the shares on open me
 # this will be the location of the persistent data for all services running on the server - presistant data is the data 
 # that will be saved for configuration files and services
 ```
+## SASS
+
+To add SASS as a docker container I got the instructions from <a href="https://mybyways.com/blog/running-sass-in-a-container">running sass in a container</a>
+
+Here are the steps:
+
+Download Sass latest version from Dart Sass GitHub.
+
+Create a Dockerfile (in the same folder as the .tar.gz please):
+```
+FROM google/dart
+ADD ./dart-sass-(change this to the version # i.e. 1.26.8)-linux-x64.tar.gz /opt/
+WORKDIR /opt/dart-sass
+ENTRYPOINT ["/opt/dart-sass/sass", "--watch", "/css"]
+```
+Then build it, tagging (-t) it with the name sass:
+```
+docker build -t sass ./
+```
+Run the image, mounting the --watch folder on the Host (/usr/[mylogin]/dev/css), which was specified in the Dockerfile above, in the Guest (/css): File Sharing
+```
+docker run --rm -it -v /Users/[mylogin]/www/css:/css sass
+```
+use absolute paths - the usual, rename [mylogin]
+make sure the folder is shared in Docker Desktop, under Preferences > Resources > File Sharing
+it is possible to append any other arguments to the end of the command, e.g. docker run --rm -it -v /usr/me/dev/css:/src sass -s compressed for compressed output.
+Create or place any Sass stylesheets, e.g. mytheme.scss, and folders here - any file changes will trigger a compile auto-magically! Check out the examples of using Bulma with Sass CLI.
+
+Now Sass watches your folder... forever. So, to terminate the running Sass container(s):
+```
+docker kill `docker ps -f ancestor=sass --format {{.ID}}`
+```
+the filter -f ancestor=sass finds the image created above, and
+--format is used to return only the Container ID
+
+
 ###### 01 https://hub.docker.com/r/portainer/portainer-ce
 ###### 02 https://github.com/portainer/portainer
 ###### 03 https://hub.docker.com/r/v2tec/watchtower

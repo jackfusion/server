@@ -100,6 +100,16 @@ Run the image, mounting the --watch folder on the Host (/usr/[mylogin]/dev/css),
 ```
 docker run --rm -it -v /Users/[mylogin]/www/css:/css sass
 ```
+or add the below to docker-compose file
+```
+sass:
+    image: sass
+    hostname: sass
+    container_name: sass
+    restart: always
+    volumes:
+       - ${USERDIR}/nginx/www/css:/css
+```
 use absolute paths - the usual, rename [mylogin]
 make sure the folder is shared in Docker Desktop, under Preferences > Resources > File Sharing
 it is possible to append any other arguments to the end of the command, e.g. docker run --rm -it -v /usr/me/dev/css:/src sass -s compressed for compressed output.

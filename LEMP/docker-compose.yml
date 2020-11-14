@@ -53,3 +53,10 @@ services:
       - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
     depends_on:
       - mariadb
+  sass:
+    image: sass
+    hostname: sass
+    container_name: sass
+    restart: always
+    volumes:
+       - ${USERDIR}/nginx/www/css:/css

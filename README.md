@@ -38,7 +38,7 @@
 - <a href="https://github.com/jackfusion/server/blob/master/README.md#14-httpsgithubcommanbearwizyoutube-dl-server">nbr23/youtube-dl-server</a>
 
 #frameworks and extensions
-- SASS
+- <a href="https://github.com/jackfusion/server#sass">SASS</a>
 
 This will be a current running setup of my server that will change as I develop things and add to the server.  Which means this repo will never be complete and will have only working setup for you to copy.  Meaning I will be constantly updating it when I add services.  
 

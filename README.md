@@ -30,15 +30,19 @@
     └── .env<br />
 
 # Serivces
-- <a href="https://github.com/jackfusion/server/blob/master/README.md#02-httpsgithubcomportainerportainer">Portainer ce</a>
-- <a href="https://github.com/jackfusion/server/blob/master/README.md#04-httpsgithubcomcontainrrrwatchtower">Watchtower</a>
+
 - <a href="https://github.com/jackfusion/server/blob/master/README.md#06-httpsgithubcomnginxincdocker-nginx">Nginx</a>
 - <a href="https://github.com/jackfusion/server/blob/master/README.md#08-httpsgithubcomdocker-librarymariadb">MariaDB</a>
 - <a href="https://github.com/jackfusion/server/blob/master/README.md#10-httpsgithubcomdocker-libraryphp">PHP</a> and <a href="https://github.com/jackfusion/server/blob/master/README.md#12-httpsgithubcomphpmyadmindocker">MYPHPAdmin</a>
+- <a href="">NODE JS</a>
+- <a href="https://github.com/jackfusion/server/blob/master/README.md#02-httpsgithubcomportainerportainer">Portainer ce</a>
+- <a href="https://github.com/jackfusion/server/blob/master/README.md#04-httpsgithubcomcontainrrrwatchtower">Watchtower</a>
 - <a href="https://github.com/jackfusion/server/blob/master/README.md#14-httpsgithubcommanbearwizyoutube-dl-server">nbr23/youtube-dl-server</a>
 
 #frameworks and extensions
 - <a href="https://github.com/jackfusion/server#sass">SASS</a>
+
+## Introduction
 
 For docker run command to converted to docker-compose file I used https://www.composerize.com/
 
@@ -54,16 +58,20 @@ The directory layout is for each service and the persistent data directory.
 
 I will be keeping a runing list of links to the github repos, dockhubs, other sites and videos I use to setup my server for reference perposes so you can reference to them or if you would like more background on the service running here.
 
+## LEMP
+
 I have followed a tutorial from <a href="https://github.com/jackfusion/server/blob/master/README.md#15-httpstechosteelmepostsdocker-for-local-web-development-introduction-why-should-you-care">Docker for local web development introduction why should you care</a> for the LEMP setup a key note on which I did not undersatnd when I did the index.php file is to have $connection = new PDO('[DBMS]:host=[HOST];dbname=demo;charset=utf8', 'root', 'root'); - this is from great help from osteel the writer of the blog.
 
+## Debian, Docker and Open Media Vault
 <a href="https://github.com/jackfusion/server/blob/master/README.md#16-httpsdocsdockercomengineinstalldebian">docker install on Debian</a> and <a href="https://github.com/jackfusion/server/blob/master/README.md#17-httpsdocsdockercomcomposeinstall">Install docker compose</a> for the docker and docker compose install
 
 sudo apt install -y libssl-dev python-dev libffi-dev libc6-dev gcc make python3-pip gnupg2 net-tools apt-transport-https ca-certificates curl gnupg-agent software-properties-common - these are what is recommended by Docker for alpine and install docker engine
 <a href="https://github.com/jackfusion/server/blob/master/README.md#18-httpswwwyoutubecomwatchva5ckt7pxrny">
 Openmediavault 5 (OMV5) Complete Install and Setup including Portainer on PC</a> for install and setup of Open Media vault not including the OMV extras because they do not include up to date docker install the one for the docker docs dose.
 
-
 I have been using <a href="https://github.com/jackfusion/server/blob/master/README.md#19-httpswwwsmarthomebeginnercomdocker-home-media-server-2018-basic">Home Media Sever</a> to help with cleaning up my code and expanding on my containers for development.
+
+## Enviroment File
 
 For each .env file you will edit the file for each stack you create for organization of the conatiners<br />
 ```
@@ -122,6 +130,12 @@ docker kill `docker ps -f ancestor=sass --format {{.ID}}`
 the filter -f ancestor=sass finds the image created above, and
 --format is used to return only the Container ID
 
+## NODE JS
+
+To get node JS to work I so that I could ``` docker exec -it <container ID> /bin/bash ``` I followed this tutorial <a href="https://geshan.com.np/blog/2020/11/nodejs-with-docker/">nodejs with docker</a> but did the full version 15 as base not the alpine version because it will not work. So that you can bash into the container.
+
+The other part I changed in the tutorial for my production system is not to install npm and node on the main system but to copy the server.js, package.json and package-lock.json from <a href="https://nodejs.org/en/docs/guides/nodejs-docker-webapp/">nodejs docker webapp</a>.  I will include them in the repo.
+
 
 ###### 01 https://hub.docker.com/r/portainer/portainer-ce
 ###### 02 https://github.com/portainer/portainer
@@ -143,3 +157,5 @@ the filter -f ancestor=sass finds the image created above, and
 ###### 18 https://www.youtube.com/watch?v=A5ckT7pxrNY
 ###### 19 https://www.smarthomebeginner.com/docker-home-media-server-2018-basic/
 ###### 20 https://mybyways.com/blog/running-sass-in-a-container
+###### 21 https://geshan.com.np/blog/2020/11/nodejs-with-docker/
+###### 22 https://nodejs.org/en/docs/guides/nodejs-docker-webapp/

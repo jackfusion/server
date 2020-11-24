@@ -136,6 +136,7 @@ To get node JS to work I so that I could ``` docker exec -it <container ID> /bin
 
 The other part I changed in the tutorial for my production system is not to install npm and node on the main system but to copy the server.js, package.json and package-lock.json from <a href="https://nodejs.org/en/docs/guides/nodejs-docker-webapp/">nodejs docker webapp</a>.  I will include them in the repo.
 
+## References
 
 ###### 01 https://hub.docker.com/r/portainer/portainer-ce
 ###### 02 https://github.com/portainer/portainer

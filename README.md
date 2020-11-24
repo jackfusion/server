@@ -32,13 +32,13 @@
 
 # Table Of Contents
 
-### <a href="https://github.com/jackfusion/server/blob/master/README.md#introduction">Introduction</a>
-### <a href="https://github.com/jackfusion/server/blob/master/README.md#lemp">LEMP</a>
-### <a href="https://github.com/jackfusion/server/blob/master/README.md#debian-docker-and-open-media-vault">Debian Docker and Open Media Vault</a>
-### <a href="https://github.com/jackfusion/server/blob/master/README.md#enviroment-file">Enviroment File</a>
-### <a href="https://github.com/jackfusion/server/blob/master/README.md#sass">SASS</a>
-### <a href="https://github.com/jackfusion/server/blob/master/README.md#node-js">NODE JS</a>
-### <a href="https://github.com/jackfusion/server/blob/master/README.md#references">References</a>
+- <a href="https://github.com/jackfusion/server/blob/master/README.md#introduction">Introduction</a>
+- <a href="https://github.com/jackfusion/server/blob/master/README.md#lemp">LEMP</a>
+- <a href="https://github.com/jackfusion/server/blob/master/README.md#debian-docker-and-open-media-vault">Debian Docker and Open Media Vault</a>
+- <a href="https://github.com/jackfusion/server/blob/master/README.md#enviroment-file">Enviroment File</a>
+- <a href="https://github.com/jackfusion/server/blob/master/README.md#sass">SASS</a>
+- <a href="https://github.com/jackfusion/server/blob/master/README.md#node-js">NODE JS</a>
+- <a href="https://github.com/jackfusion/server/blob/master/README.md#references">References</a>
 
 # Serivces
 

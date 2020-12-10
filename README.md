@@ -30,7 +30,7 @@
     └── .env<br />
 
 
- <h1>Table Of Contents</h1>
+ <h1>Table Of Contents</h1><a id="top></a>
 
 <ul>
     <li><a href="https://github.com/jackfusion/server/blob/master/README.md#introduction">Introduction</a></li>
@@ -73,7 +73,7 @@
 
 <p>I will be keeping a runing list of links to the github repos, dockhubs, other sites and videos I use to setup my server for reference perposes so you can reference to them or if you would like more background on the service running here.</p>
 
-<p><a href="https://github.com/jackfusion/server/blob/master/README.md#table-of-contents">TOP</a><p>
+<p><a href="#top">TOP</a><p>
 
 <h2>LEMP</h2>
 

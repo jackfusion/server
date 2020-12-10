@@ -33,31 +33,31 @@
  <h1>Table Of Contents</h1>
 
 <ul>
-    <li><a href="https://github.com/jackfusion/server/blob/master/README.md#introduction">Introduction</a></li>
-    <li><a href="https://github.com/jackfusion/server/blob/master/README.md#lemp">LEMP</a></li>
-    <li><a href="https://github.com/jackfusion/server/blob/master/README.md#debian-docker-and-open-media-vault">Debian Docker and Open Media Vault</a></li>
-    <li><a href="https://github.com/jackfusion/server/blob/master/README.md#enviroment-file">Enviroment File</a></li>
-    <li><a href="https://github.com/jackfusion/server/blob/master/README.md#sass">SASS</a></li>
-    <li><a href="https://github.com/jackfusion/server/blob/master/README.md#node-js">NODE JS</a></li>
-    <li><a href="https://github.com/jackfusion/server/blob/master/README.md#references">References</a></li>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#lemp">LEMP</a></li>
+    <li><a href="#debian-docker-and-open-media-vault">Debian Docker and Open Media Vault</a></li>
+    <li><a href="#enviroment-file">Enviroment File</a></li>
+    <li><a href="#sass">SASS</a></li>
+    <li><a href="#node-js">NODE JS</a></li>
+    <li><a href="#references">References</a></li>
 </ul>
 
  <h1>Serivces</h1>
 
 <ul>
-    <li><a href="https://github.com/jackfusion/server/blob/master/README.md#06-httpsgithubcomnginxincdocker-nginx">Nginx</a></li>
-    <li><a href="https://github.com/jackfusion/server/blob/master/README.md#08-httpsgithubcomdocker-librarymariadb">MariaDB</a></li>
-    <li><a href="https://github.com/jackfusion/server/blob/master/README.md#10-httpsgithubcomdocker-libraryphp">PHP</a> and <a href="https://github.com/jackfusion/server/blob/master/README.md#12-httpsgithubcomphpmyadmindocker">MYPHPAdmin</a></li>
-    <li><a href="https://github.com/jackfusion/server/blob/master/README.md#21-httpsgeshancomnpblog202011nodejs-with-docker">NODE JS</a></li>
-    <li><a href="https://github.com/jackfusion/server/blob/master/README.md#02-httpsgithubcomportainerportainer">Portainer ce</a></li>
-    <li><a href="https://github.com/jackfusion/server/blob/master/README.md#04-httpsgithubcomcontainrrrwatchtower">Watchtower</a></li>
-    <li><a href="https://github.com/jackfusion/server/blob/master/README.md#14-httpsgithubcommanbearwizyoutube-dl-server">nbr23/youtube-dl-server</a></li>
+    <li><a href="#06-httpsgithubcomnginxincdocker-nginx">Nginx</a></li>
+    <li><a href="#08-httpsgithubcomdocker-librarymariadb">MariaDB</a></li>
+    <li><a href="#10-httpsgithubcomdocker-libraryphp">PHP</a> and <a href="#12-httpsgithubcomphpmyadmindocker">MYPHPAdmin</a></li>
+    <li><a href="#21-httpsgeshancomnpblog202011nodejs-with-docker">NODE JS</a></li>
+    <li><a href="#02-httpsgithubcomportainerportainer">Portainer ce</a></li>
+    <li><a href="#04-httpsgithubcomcontainrrrwatchtower">Watchtower</a></li>
+    <li><a href="#14-httpsgithubcommanbearwizyoutube-dl-server">nbr23/youtube-dl-server</a></li>
 </ul>
 
 <h1>frameworks and extensions</h1>
-- <a href="https://github.com/jackfusion/server/blob/master/README.md#20-httpsmybywayscomblogrunning-sass-in-a-container">SASS</a>
+- <a href="#20-httpsmybywayscomblogrunning-sass-in-a-container">SASS</a>
 
-<h2>Introduction</h2>
+<h2><a id="introduction">Introduction</a></h2>
 
 <p>For docker run command to converted to docker-compose file I used <a href="https://www.composerize.com/">https://www.composerize.com/</a></p>
 
@@ -75,24 +75,24 @@
 
 <p><a href="#top">TOP</a><p>
 
-<h2>LEMP</h2>
+<h2><a id="lemp">LEMP</a></h2>
 
-<p>I have followed a tutorial from <a href="https://github.com/jackfusion/server/blob/master/README.md#15-httpstechosteelmepostsdocker-for-local-web-development-introduction-why-should-you-care">Docker for local web development introduction why should you care</a> for the LEMP setup a key note on which I did not undersatnd when I did the index.php file is to have $connection = new PDO('[DBMS]:host=[HOST];dbname=demo;charset=utf8', 'root', 'root'); - this is from great help from osteel the writer of the blog.</p>
-
-<p><a href="https://github.com/jackfusion/server/blob/master/README.md#table-of-contents">TOP</a><p>
-
-<h2>Debian, Docker and Open Media Vault</h2>
-<p><a href="https://github.com/jackfusion/server/blob/master/README.md#16-httpsdocsdockercomengineinstalldebian">docker install on Debian</a> and <a href="https://github.com/jackfusion/server/blob/master/README.md#17-httpsdocsdockercomcomposeinstall">Install docker compose</a> for the docker and docker compose install</p>
-
-<p>sudo apt install -y libssl-dev python-dev libffi-dev libc6-dev gcc make python3-pip gnupg2 net-tools apt-transport-https ca-certificates curl gnupg-agent software-properties-common - these are what is recommended by Docker for alpine and install docker engine
-<a href="https://github.com/jackfusion/server/blob/master/README.md#18-httpswwwyoutubecomwatchva5ckt7pxrny">
-Openmediavault 5 (OMV5) Complete Install and Setup including Portainer on PC</a> for install and setup of Open Media vault not including the OMV extras because they do not include up to date docker install the one for the docker docs dose.</p>
-
-<p>I have been using <a href="https://github.com/jackfusion/server/blob/master/README.md#19-httpswwwsmarthomebeginnercomdocker-home-media-server-2018-basic">Home Media Sever</a> to help with cleaning up my code and expanding on my containers for development.</p>
+<p>I have followed a tutorial from <a href="#15-httpstechosteelmepostsdocker-for-local-web-development-introduction-why-should-you-care">Docker for local web development introduction why should you care</a> for the LEMP setup a key note on which I did not undersatnd when I did the index.php file is to have $connection = new PDO('[DBMS]:host=[HOST];dbname=demo;charset=utf8', 'root', 'root'); - this is from great help from osteel the writer of the blog.</p>
 
 <p><a href="#top">TOP</a><p>
 
-<h2>Enviroment File</h2>
+<h2><a id="debian-docker-and-open-media-vault">Debian, Docker and Open Media Vault</a></h2>
+<p><a href="#16-httpsdocsdockercomengineinstalldebian">docker install on Debian</a> and <a href="#17-httpsdocsdockercomcomposeinstall">Install docker compose</a> for the docker and docker compose install</p>
+
+<p>sudo apt install -y libssl-dev python-dev libffi-dev libc6-dev gcc make python3-pip gnupg2 net-tools apt-transport-https ca-certificates curl gnupg-agent software-properties-common - these are what is recommended by Docker for alpine and install docker engine
+<a href="#18-httpswwwyoutubecomwatchva5ckt7pxrny">
+Openmediavault 5 (OMV5) Complete Install and Setup including Portainer on PC</a> for install and setup of Open Media vault not including the OMV extras because they do not include up to date docker install the one for the docker docs dose.</p>
+
+<p>I have been using <a href="#19-httpswwwsmarthomebeginnercomdocker-home-media-server-2018-basic">Home Media Sever</a> to help with cleaning up my code and expanding on my containers for development.</p>
+
+<p><a href="#top">TOP</a><p>
+
+<h2><a id="enviroment-file">Enviroment File</a></h2>
 
 For each .env file you will edit the file for each stack you create for organization of the conatiners<br />
 <pre>
@@ -111,7 +111,7 @@ USERDIR={location to presistate date} # for me this is one the shares on open me
 
 <p><a href="#top">TOP</a><p>
 
-<h2>SASS</h2>
+<h2><a id="sass">SASS</a></h2>
 
 <p>To add SASS as a docker container I got the instructions from <a href="https://mybyways.com/blog/running-sass-in-a-container">running sass in a container</a></p>
 
@@ -170,7 +170,7 @@ the filter -f ancestor=sass finds the image created above, and
 
 <p><a href="#top">TOP</a><p>
 
-<h2>NODE JS</h2>
+<h2><a id="node-js">NODE JS</a></h2>
 
 <p>To get node JS to work I so that I could ``` docker exec -it <container ID> /bin/bash ``` I followed this tutorial <a href="https://geshan.com.np/blog/2020/11/nodejs-with-docker/">nodejs with docker</a> but did the full version 15 as base not the alpine version because it will not work. So that you can bash into the container.</p>
 
@@ -178,29 +178,29 @@ the filter -f ancestor=sass finds the image created above, and
 
 <p><a href="#top">TOP</a><p>
 
-<h2>References</h2>
+<h2><a id="references">References</a></h2>
 <ol>
     <li><h6><a href="https://hub.docker.com/r/portainer/portainer-ce">https://hub.docker.com/r/portainer/portainer-ce</a></h6></li>
-    <li><h6><a href="https://github.com/portainer/portainer">https://github.com/portainer/portainer</a></h6></li>
+    <li><a id="httpsgithubcomportainerportainer"><h6><a href="https://github.com/portainer/portainer">https://github.com/portainer/portainer</a></h6></a></li>
     <li><h6><a href="https://hub.docker.com/r/v2tec/watchtower">https://hub.docker.com/r/v2tec/watchtower</a></h6></li>
-    <li><h6><a href="https://github.com/containrrr/watchtower">https://github.com/containrrr/watchtower</a></h6></li>
+    <li><a id="httpsgithubcomcontainrrrwatchtower"><h6><a href="https://github.com/containrrr/watchtower">https://github.com/containrrr/watchtower</a></h6></a></li>
     <li><h6><a href="https://hub.docker.com/_/nginx">https://hub.docker.com/_/nginx</a></h6></li>
-    <li><h6><a href="https://github.com/nginxinc/docker-nginx/">https://github.com/nginxinc/docker-nginx/</a></h6></li>
+    <li><a id="httpsgithubcomnginxincdocker-nginx"><h6><a href="https://github.com/nginxinc/docker-nginx/">https://github.com/nginxinc/docker-nginx/</a></h6></a></li>
     <li><h6><a href="https://hub.docker.com/_/mariadb">https://hub.docker.com/_/mariadb</a></h6></li>
-    <li><h6><a href="https://github.com/docker-library/mariadb">https://github.com/docker-library/mariadb</a></h6></li>
+    <li><a id="httpsgithubcomdocker-librarymariadb"><h6><a href="https://github.com/docker-library/mariadb">https://github.com/docker-library/mariadb</a></h6></a></li>
     <li><h6><a href="https://hub.docker.com/_/php">https://hub.docker.com/_/php</a></h6></li>
-    <li><h6><a href="https://github.com/docker-library/php">https://github.com/docker-library/php</a></h6></li>
+    <li><a id="httpsgithubcomdocker-libraryphp"><h6><a href="https://github.com/docker-library/php">https://github.com/docker-library/php</a></h6></a></li>
     <li><h6><a href="https://hub.docker.com/_/phpmyadmin">https://hub.docker.com/_/phpmyadmin</a></h6></li>
-    <li><h6><a href="https://github.com/phpmyadmin/docker">https://github.com/phpmyadmin/docker</a></h6></li>
+    <li><h6><a id=""><a href="https://github.com/phpmyadmin/docker">https://github.com/phpmyadmin/docker</a></h6></a></li>
     <li><h6><a href="https://hub.docker.com/r/nbr23/youtube-dl-server">https://hub.docker.com/r/nbr23/youtube-dl-server</a></h6></li>
-    <li><h6><a href="https://github.com/manbearwiz/youtube-dl-server">https://github.com/manbearwiz/youtube-dl-server</a></h6></li>
-    <li><h6><a href="https://tech.osteel.me/posts/docker-for-local-web-development-introduction-why-should-you-care">https://tech.osteel.me/posts/docker-for-local-web-development-introduction-why-should-you-care</a></h6></li>
-    <li><h6><a href="https://docs.docker.com/engine/install/debian/<">https://docs.docker.com/engine/install/debian/</a></h6></li>
-    <li><h6><a href="https://docs.docker.com/compose/install/">https://docs.docker.com/compose/install/</a></h6></li>
-    <li><h6><a href="https://www.youtube.com/watch?v=A5ckT7pxrNY">https://www.youtube.com/watch?v=A5ckT7pxrNY</a></h6></li>
-    <li><h6><a href="https://www.smarthomebeginner.com/docker-home-media-server-2018-basic/">https://www.smarthomebeginner.com/docker-home-media-server-2018-basic/</a></h6></li>
-    <li><h6><a href="https://mybyways.com/blog/running-sass-in-a-container">https://mybyways.com/blog/running-sass-in-a-container</a></h6></li>
-    <li><h6><a href="https://geshan.com.np/blog/2020/11/nodejs-with-docker/">https://geshan.com.np/blog/2020/11/nodejs-with-docker/</a></h6></li>
+    <li><a id="httpsgithubcommanbearwizyoutube-dl-server"><h6><a href="https://github.com/manbearwiz/youtube-dl-server">https://github.com/manbearwiz/youtube-dl-server</a></h6></a></li>
+    <li><a id="httpstechosteelmepostsdocker-for-local-web-development-introduction-why-should-you-care"><h6><a href="https://tech.osteel.me/posts/docker-for-local-web-development-introduction-why-should-you-care">https://tech.osteel.me/posts/docker-for-local-web-development-introduction-why-should-you-care</a></h6></a></li>
+    <li><a id="httpsdocsdockercomengineinstalldebian"><h6><a href="https://docs.docker.com/engine/install/debian/<">https://docs.docker.com/engine/install/debian/</a></h6></a></li>
+    <li><a id="httpsdocsdockercomcomposeinstall"><h6><a href="https://docs.docker.com/compose/install/">https://docs.docker.com/compose/install/</a></h6></a></li>
+    <li><a id="httpswwwyoutubecomwatchva5ckt7pxrny"><h6><a href="https://www.youtube.com/watch?v=A5ckT7pxrNY">https://www.youtube.com/watch?v=A5ckT7pxrNY</a></h6></a></li>
+    <li><a id="httpswwwsmarthomebeginnercomdocker-home-media-server-2018-basic"><h6><a href="https://www.smarthomebeginner.com/docker-home-media-server-2018-basic/">https://www.smarthomebeginner.com/docker-home-media-server-2018-basic/</a></h6></a></li>
+    <li><a id="httpsmybywayscomblogrunning-sass-in-a-container"><h6><a href="https://mybyways.com/blog/running-sass-in-a-container">https://mybyways.com/blog/running-sass-in-a-container</a></h6></a></li>
+    <li><a id="httpsgeshancomnpblog202011nodejs-with-docker"><h6><a href="https://geshan.com.np/blog/2020/11/nodejs-with-docker/">https://geshan.com.np/blog/2020/11/nodejs-with-docker/</a></h6></a></li>
     <li><h6><a href="https://nodejs.org/en/docs/guides/nodejs-docker-webapp/">https://nodejs.org/en/docs/guides/nodejs-docker-webapp/</a></h6></li>
 </ol>
 <p><a href="#top">TOP</a><p>

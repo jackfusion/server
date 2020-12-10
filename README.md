@@ -47,7 +47,7 @@
 <ul>
     <li><a href="#httpsgithubcomnginxincdocker-nginx">Nginx</a></li>
     <li><a href="#httpsgithubcomdocker-librarymariadb">MariaDB</a></li>
-    <li><a href="#httpsgithubcomdocker-libraryphp">PHP</a> and <a href="#12-httpsgithubcomphpmyadmindocker">MYPHPAdmin</a></li>
+    <li><a href="#httpsgithubcomdocker-libraryphp">PHP</a> and <a href="httpsgithubcomphpmyadmindocker">MYPHPAdmin</a></li>
     <li><a href="#httpsgeshancomnpblog202011nodejs-with-docker">NODE JS</a></li>
     <li><a href="#httpsgithubcomportainerportainer">Portainer ce</a></li>
     <li><a href="#httpsgithubcomcontainrrrwatchtower">Watchtower</a></li>

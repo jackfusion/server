@@ -30,7 +30,7 @@
     └── .env<br />
 
 
- <h1>Table Of Contents</h1><a id="top></a>
+ <h1>Table Of Contents</h1><a id="top"></a>
 
 <ul>
     <li><a href="https://github.com/jackfusion/server/blob/master/README.md#introduction">Introduction</a></li>

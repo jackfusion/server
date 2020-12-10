@@ -1,4 +1,4 @@
-<h1>Current Server Setup</h1>
+<h1>Current Server Setup</h1><a href="https://jackfusion.github.io/projects.html" style="text-align:right">Back to previuos page</a>
 
 <h2>Directoy layout</h2>
 

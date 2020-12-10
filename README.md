@@ -172,7 +172,7 @@ the filter -f ancestor=sass finds the image created above, and
 
 <h2><a id="node-js">NODE JS</a></h2>
 
-<p>To get node JS to work I so that I could ``` docker exec -it <container ID> /bin/bash ``` I followed this tutorial <a href="https://geshan.com.np/blog/2020/11/nodejs-with-docker/">nodejs with docker</a> but did the full version 15 as base not the alpine version because it will not work. So that you can bash into the container.</p>
+<p>To get node JS to work I so that I could <pre><code> docker exec -it <container ID> /bin/bash </code></pre>I followed this tutorial <a href="https://geshan.com.np/blog/2020/11/nodejs-with-docker/">nodejs with docker</a> but did the full version 15 as base not the alpine version because it will not work. So that you can bash into the container.</p>
 
 <p>The other part I changed in the tutorial for my production system is not to install npm and node on the main system but to copy the server.js, package.json and package-lock.json from <a href="https://nodejs.org/en/docs/guides/nodejs-docker-webapp/">nodejs docker webapp</a>.  I will include them in the repo.</p>
 

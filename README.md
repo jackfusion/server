@@ -81,7 +81,7 @@
 
 <p><a href="#top">TOP</a><p>
 
-<h2><a href="#debian-docker-and-open-media-vault">Debian, Docker and Open Media Vault</a></h2>
+<h2><a id="debian-docker-and-open-media-vault">Debian, Docker and Open Media Vault</a></h2>
 <p><a href="#httpsdocsdockercomengineinstalldebian">docker install on Debian</a> and <a href="#httpsdocsdockercomcomposeinstall">Install docker compose</a> for the docker and docker compose install</p>
 
 <p>sudo apt install -y libssl-dev python-dev libffi-dev libc6-dev gcc make python3-pip gnupg2 net-tools apt-transport-https ca-certificates curl gnupg-agent software-properties-common - these are what is recommended by Docker for alpine and install docker engine
@@ -180,27 +180,142 @@ the filter -f ancestor=sass finds the image created above, and
 
 <h2><a id="references">References</a></h2>
 <ol>
-    <li><h6><a href="https://hub.docker.com/r/portainer/portainer-ce">https://hub.docker.com/r/portainer/portainer-ce</a></h6></li>
-    <li><a id="httpsgithubcomportainerportainer"><h6><a href="https://github.com/portainer/portainer">https://github.com/portainer/portainer</a></h6></a></li>
-    <li><h6><a href="https://hub.docker.com/r/v2tec/watchtower">https://hub.docker.com/r/v2tec/watchtower</a></h6></li>
-    <li><a id="httpsgithubcomcontainrrrwatchtower"><h6><a href="https://github.com/containrrr/watchtower">https://github.com/containrrr/watchtower</a></h6></a></li>
-    <li><h6><a href="https://hub.docker.com/_/nginx">https://hub.docker.com/_/nginx</a></h6></li>
-    <li><a id="httpsgithubcomnginxincdocker-nginx"><h6><a href="https://github.com/nginxinc/docker-nginx/">https://github.com/nginxinc/docker-nginx/</a></h6></a></li>
-    <li><h6><a href="https://hub.docker.com/_/mariadb">https://hub.docker.com/_/mariadb</a></h6></li>
-    <li><a id="httpsgithubcomdocker-librarymariadb"><h6><a href="https://github.com/docker-library/mariadb">https://github.com/docker-library/mariadb</a></h6></a></li>
-    <li><h6><a href="https://hub.docker.com/_/php">https://hub.docker.com/_/php</a></h6></li>
-    <li><a id="httpsgithubcomdocker-libraryphp"><h6><a href="https://github.com/docker-library/php">https://github.com/docker-library/php</a></h6></a></li>
-    <li><h6><a href="https://hub.docker.com/_/phpmyadmin">https://hub.docker.com/_/phpmyadmin</a></h6></li>
-    <li><h6><a id="httpsgithubcomphpmyadmindocker"><a href="https://github.com/phpmyadmin/docker">https://github.com/phpmyadmin/docker</a></h6></a></li>
-    <li><h6><a href="https://hub.docker.com/r/nbr23/youtube-dl-server">https://hub.docker.com/r/nbr23/youtube-dl-server</a></h6></li>
-    <li><a id="httpsgithubcommanbearwizyoutube-dl-server"><h6><a href="https://github.com/manbearwiz/youtube-dl-server">https://github.com/manbearwiz/youtube-dl-server</a></h6></a></li>
-    <li><a id="httpstechosteelmepostsdocker-for-local-web-development-introduction-why-should-you-care"><h6><a href="https://tech.osteel.me/posts/docker-for-local-web-development-introduction-why-should-you-care">https://tech.osteel.me/posts/docker-for-local-web-development-introduction-why-should-you-care</a></h6></a></li>
-    <li><a id="httpsdocsdockercomengineinstalldebian"><h6><a href="https://docs.docker.com/engine/install/debian/<">https://docs.docker.com/engine/install/debian/</a></h6></a></li>
-    <li><a id="httpsdocsdockercomcomposeinstall"><h6><a href="https://docs.docker.com/compose/install/">https://docs.docker.com/compose/install/</a></h6></a></li>
-    <li><a id="httpswwwyoutubecomwatchva5ckt7pxrny"><h6><a href="https://www.youtube.com/watch?v=A5ckT7pxrNY">https://www.youtube.com/watch?v=A5ckT7pxrNY</a></h6></a></li>
-    <li><a id="httpswwwsmarthomebeginnercomdocker-home-media-server-2018-basic"><h6><a href="https://www.smarthomebeginner.com/docker-home-media-server-2018-basic/">https://www.smarthomebeginner.com/docker-home-media-server-2018-basic/</a></h6></a></li>
-    <li><a id="httpsmybywayscomblogrunning-sass-in-a-container"><h6><a href="https://mybyways.com/blog/running-sass-in-a-container">https://mybyways.com/blog/running-sass-in-a-container</a></h6></a></li>
-    <li><a id="httpsgeshancomnpblog202011nodejs-with-docker"><h6><a href="https://geshan.com.np/blog/2020/11/nodejs-with-docker/">https://geshan.com.np/blog/2020/11/nodejs-with-docker/</a></h6></a></li>
-    <li><h6><a href="https://nodejs.org/en/docs/guides/nodejs-docker-webapp/">https://nodejs.org/en/docs/guides/nodejs-docker-webapp/</a></h6></li>
+  <li>
+    <h6>
+      <a href="https://hub.docker.com/r/portainer/portainer-ce">https://hub.docker.com/r/portainer/portainer-ce</a>
+    </h6>
+  </li>
+  <li>
+    <a id="httpsgithubcomportainerportainer">
+      <h6>
+        <a href="https://github.com/portainer/portainer">https://github.com/portainer/portainer</a>
+      </h6>
+    </a>
+  </li>
+  <li>
+    <h6>
+      <a href="https://hub.docker.com/r/v2tec/watchtower">https://hub.docker.com/r/v2tec/watchtower</a>
+    </h6>
+  </li>
+  <li>
+    <a id="httpsgithubcomcontainrrrwatchtower">
+      <h6>
+        <a href="https://github.com/containrrr/watchtower">https://github.com/containrrr/watchtower</a>
+      </h6>
+    </a>
+  </li>
+  <li>
+    <h6>
+      <a href="https://hub.docker.com/_/nginx">https://hub.docker.com/_/nginx</a>
+    </h6>
+  </li>
+  <li>
+    <a id="httpsgithubcomnginxincdocker-nginx">
+      <h6>
+        <a href="https://github.com/nginxinc/docker-nginx/">https://github.com/nginxinc/docker-nginx/</a>
+      </h6>
+    </a>
+  </li>
+  <li>
+    <h6>
+      <a href="https://hub.docker.com/_/mariadb">https://hub.docker.com/_/mariadb</a>
+    </h6>
+  </li>
+  <li>
+    <a id="httpsgithubcomdocker-librarymariadb">
+      <h6>
+        <a href="https://github.com/docker-library/mariadb">https://github.com/docker-library/mariadb</a>
+      </h6>
+    </a>
+  </li>
+  <li>
+    <h6>
+      <a href="https://hub.docker.com/_/php">https://hub.docker.com/_/php</a>
+    </h6>
+  </li>
+  <li>
+    <a id="httpsgithubcomdocker-libraryphp">
+      <h6>
+        <a href="https://github.com/docker-library/php">https://github.com/docker-library/php</a>
+      </h6>
+    </a>
+  </li>
+  <li>
+    <h6>
+      <a href="https://hub.docker.com/_/phpmyadmin">https://hub.docker.com/_/phpmyadmin</a>
+    </h6>
+  </li>
+  <li>
+    <a id="httpsgithubcomphpmyadmindocker">
+      <h6>
+        <a href="https://github.com/phpmyadmin/docker">https://github.com/phpmyadmin/docker</a>
+      </h6>
+    </a>
+  </li>
+  <li>
+    <h6>
+      <a href="https://hub.docker.com/r/nbr23/youtube-dl-server">https://hub.docker.com/r/nbr23/youtube-dl-server</a>
+    </h6>
+  </li>
+  <li>
+    <a id="httpsgithubcommanbearwizyoutube-dl-server">
+      <h6>
+        <a href="https://github.com/manbearwiz/youtube-dl-server">https://github.com/manbearwiz/youtube-dl-server</a>
+      </h6>
+    </a>
+  </li>
+  <li>
+    <a id="httpstechosteelmepostsdocker-for-local-web-development-introduction-why-should-you-care">
+      <h6>
+        <a href="https://tech.osteel.me/posts/docker-for-local-web-development-introduction-why-should-you-care">https://tech.osteel.me/posts/docker-for-local-web-development-introduction-why-should-you-care</a>
+      </h6>
+    </a>
+  </li>
+  <li>
+    <a id="httpsdocsdockercomengineinstalldebian">
+      <h6>
+        <a href="https://docs.docker.com/engine/install/debian/">https://docs.docker.com/engine/install/debian/</a>
+      </h6>
+    </a>
+  </li>
+  <li>
+    <a id="httpsdocsdockercomcomposeinstall">
+      <h6>
+        <a href="https://docs.docker.com/compose/install/">https://docs.docker.com/compose/install/</a></h6>
+    </a>
+  </li>
+  <li>
+    <a id="httpswwwyoutubecomwatchva5ckt7pxrny">
+      <h6>
+        <a href="https://www.youtube.com/watch?v=A5ckT7pxrNY">https://www.youtube.com/watch?v=A5ckT7pxrNY</a>
+      </h6>
+    </a>
+  </li>
+  <li>
+    <a id="httpswwwsmarthomebeginnercomdocker-home-media-server-2018-basic">
+      <h6>
+        <a href="https://www.smarthomebeginner.com/docker-home-media-server-2018-basic/">https://www.smarthomebeginner.com/docker-home-media-server-2018-basic/</a>
+      </h6>
+    </a>
+  </li>
+  <li>
+    <a id="httpsmybywayscomblogrunning-sass-in-a-container">
+      <h6>
+        <a href="https://mybyways.com/blog/running-sass-in-a-container">https://mybyways.com/blog/running-sass-in-a-container</a>
+      </h6>
+    </a>
+  </li>
+  <li>
+    <a id="httpsgeshancomnpblog202011nodejs-with-docker">
+      <h6>
+        <a href="https://geshan.com.np/blog/2020/11/nodejs-with-docker/">https://geshan.com.np/blog/2020/11/nodejs-with-docker/</a>
+      </h6>
+    </a>
+  </li>
+  <li>
+    <h6>
+      <a href="https://nodejs.org/en/docs/guides/nodejs-docker-webapp/">https://nodejs.org/en/docs/guides/nodejs-docker-webapp/</a>
+    </h6>
+  </li>
 </ol>
 <p><a href="#top">TOP</a><p>

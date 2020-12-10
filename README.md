@@ -47,7 +47,7 @@
 <ul>
     <li><a href="#httpsgithubcomnginxincdocker-nginx">Nginx</a></li>
     <li><a href="#httpsgithubcomdocker-librarymariadb">MariaDB</a></li>
-    <li><a href="#httpsgithubcomdocker-libraryphp">PHP</a> and <a href="httpsgithubcomphpmyadmindocker">MYPHPAdmin</a></li>
+    <li><a href="#httpsgithubcomdocker-libraryphp">PHP</a> and <a href="#httpsgithubcomphpmyadmindocker">MYPHPAdmin</a></li>
     <li><a href="#httpsgeshancomnpblog202011nodejs-with-docker">NODE JS</a></li>
     <li><a href="#httpsgithubcomportainerportainer">Portainer ce</a></li>
     <li><a href="#httpsgithubcomcontainrrrwatchtower">Watchtower</a></li>
@@ -191,7 +191,7 @@ the filter -f ancestor=sass finds the image created above, and
     <li><h6><a href="https://hub.docker.com/_/php">https://hub.docker.com/_/php</a></h6></li>
     <li><a id="httpsgithubcomdocker-libraryphp"><h6><a href="https://github.com/docker-library/php">https://github.com/docker-library/php</a></h6></a></li>
     <li><h6><a href="https://hub.docker.com/_/phpmyadmin">https://hub.docker.com/_/phpmyadmin</a></h6></li>
-    <li><h6><a id=""><a href="https://github.com/phpmyadmin/docker">https://github.com/phpmyadmin/docker</a></h6></a></li>
+    <li><h6><a id="httpsgithubcomphpmyadmindocker"><a href="https://github.com/phpmyadmin/docker">https://github.com/phpmyadmin/docker</a></h6></a></li>
     <li><h6><a href="https://hub.docker.com/r/nbr23/youtube-dl-server">https://hub.docker.com/r/nbr23/youtube-dl-server</a></h6></li>
     <li><a id="httpsgithubcommanbearwizyoutube-dl-server"><h6><a href="https://github.com/manbearwiz/youtube-dl-server">https://github.com/manbearwiz/youtube-dl-server</a></h6></a></li>
     <li><a id="httpstechosteelmepostsdocker-for-local-web-development-introduction-why-should-you-care"><h6><a href="https://tech.osteel.me/posts/docker-for-local-web-development-introduction-why-should-you-care">https://tech.osteel.me/posts/docker-for-local-web-development-introduction-why-should-you-care</a></h6></a></li>

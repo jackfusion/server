@@ -45,17 +45,17 @@
  <h1>Serivces</h1>
 
 <ul>
-    <li><a href="#06-httpsgithubcomnginxincdocker-nginx">Nginx</a></li>
-    <li><a href="#08-httpsgithubcomdocker-librarymariadb">MariaDB</a></li>
-    <li><a href="#10-httpsgithubcomdocker-libraryphp">PHP</a> and <a href="#12-httpsgithubcomphpmyadmindocker">MYPHPAdmin</a></li>
-    <li><a href="#21-httpsgeshancomnpblog202011nodejs-with-docker">NODE JS</a></li>
-    <li><a href="#02-httpsgithubcomportainerportainer">Portainer ce</a></li>
-    <li><a href="#04-httpsgithubcomcontainrrrwatchtower">Watchtower</a></li>
-    <li><a href="#14-httpsgithubcommanbearwizyoutube-dl-server">nbr23/youtube-dl-server</a></li>
+    <li><a href="#httpsgithubcomnginxincdocker-nginx">Nginx</a></li>
+    <li><a href="#httpsgithubcomdocker-librarymariadb">MariaDB</a></li>
+    <li><a href="#httpsgithubcomdocker-libraryphp">PHP</a> and <a href="#12-httpsgithubcomphpmyadmindocker">MYPHPAdmin</a></li>
+    <li><a href="#httpsgeshancomnpblog202011nodejs-with-docker">NODE JS</a></li>
+    <li><a href="#httpsgithubcomportainerportainer">Portainer ce</a></li>
+    <li><a href="#httpsgithubcomcontainrrrwatchtower">Watchtower</a></li>
+    <li><a href="#httpsgithubcommanbearwizyoutube-dl-server">nbr23/youtube-dl-server</a></li>
 </ul>
 
 <h1>frameworks and extensions</h1>
-- <a href="#20-httpsmybywayscomblogrunning-sass-in-a-container">SASS</a>
+- <a href="httpsmybywayscomblogrunning-sass-in-a-container">SASS</a>
 
 <h2><a id="introduction">Introduction</a></h2>
 
@@ -77,18 +77,18 @@
 
 <h2><a id="lemp">LEMP</a></h2>
 
-<p>I have followed a tutorial from <a href="#15-httpstechosteelmepostsdocker-for-local-web-development-introduction-why-should-you-care">Docker for local web development introduction why should you care</a> for the LEMP setup a key note on which I did not undersatnd when I did the index.php file is to have $connection = new PDO('[DBMS]:host=[HOST];dbname=demo;charset=utf8', 'root', 'root'); - this is from great help from osteel the writer of the blog.</p>
+<p>I have followed a tutorial from <a href="httpstechosteelmepostsdocker-for-local-web-development-introduction-why-should-you-care">Docker for local web development introduction why should you care</a> for the LEMP setup a key note on which I did not undersatnd when I did the index.php file is to have $connection = new PDO('[DBMS]:host=[HOST];dbname=demo;charset=utf8', 'root', 'root'); - this is from great help from osteel the writer of the blog.</p>
 
 <p><a href="#top">TOP</a><p>
 
 <h2><a id="debian-docker-and-open-media-vault">Debian, Docker and Open Media Vault</a></h2>
-<p><a href="#16-httpsdocsdockercomengineinstalldebian">docker install on Debian</a> and <a href="#17-httpsdocsdockercomcomposeinstall">Install docker compose</a> for the docker and docker compose install</p>
+<p><a href="httpsdocsdockercomengineinstalldebian">docker install on Debian</a> and <a href="httpsdocsdockercomcomposeinstall">Install docker compose</a> for the docker and docker compose install</p>
 
 <p>sudo apt install -y libssl-dev python-dev libffi-dev libc6-dev gcc make python3-pip gnupg2 net-tools apt-transport-https ca-certificates curl gnupg-agent software-properties-common - these are what is recommended by Docker for alpine and install docker engine
-<a href="#18-httpswwwyoutubecomwatchva5ckt7pxrny">
+<a href="httpswwwyoutubecomwatchva5ckt7pxrny">
 Openmediavault 5 (OMV5) Complete Install and Setup including Portainer on PC</a> for install and setup of Open Media vault not including the OMV extras because they do not include up to date docker install the one for the docker docs dose.</p>
 
-<p>I have been using <a href="#19-httpswwwsmarthomebeginnercomdocker-home-media-server-2018-basic">Home Media Sever</a> to help with cleaning up my code and expanding on my containers for development.</p>
+<p>I have been using <a href="httpswwwsmarthomebeginnercomdocker-home-media-server-2018-basic">Home Media Sever</a> to help with cleaning up my code and expanding on my containers for development.</p>
 
 <p><a href="#top">TOP</a><p>
 
